@@ -13,6 +13,13 @@ function ChangeItUp() {
         onChange={handleChange}
         placeholder="Enter search term..."
       />
+      <input
+        type="text"
+        name="search"
+        onChange={handleChange}
+        placeholder="Enter search term..."
+      />
+
 
       <select name="filter" onChange={handleChange}>
         <option value="all">Select a filter...</option>
